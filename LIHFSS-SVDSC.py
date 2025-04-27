@@ -289,7 +289,7 @@ def subspace_clustering_loss(Q, C, num_clusters):
     L_Q = torch.trace(Q_one_hot.T @ L_half @ Q_one_hot)
     return L_Q
 
-def train(model, x, y, epochs, lr=1e-3, weight_coef=0, weight_selfExp=0, device='cuda', alpha=0, dim_subspace=12, ro=0, show=10, phase1_epochs=180):
+def train(model, x, y, epochs, lr=1e-3, weight_coef=0, weight_selfExp=0, device='cuda', alpha=0, dim_subspace=12, ro=0, show=10):
     optimizer = optim.Adam(model.parameters(), lr=lr)
     if not isinstance(x, torch.Tensor):
         x = torch.tensor(x, dtype=torch.float32, device=device)
