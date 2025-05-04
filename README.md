@@ -1,7 +1,7 @@
 # LIHFSS-SVDSC
 
 
-Pytorch implementation of ...
+Pytorch implementation of https://arxiv.org/pdf/2504.18179 
 
 
 
