@@ -3,7 +3,7 @@
 
 Pytorch implementation of https://arxiv.org/pdf/2504.18179 
 
-
+Any problem can contact lovro . sindicic (at) fer. hr 
 
 
 ## Citing
@@ -16,4 +16,4 @@ If you find our repository useful, please consider citing "Label-independent hyp
 
 This research project is supported by the Croatian Science Foundation grant IP-2022-10-6403.
 
-Any problem can contact lovro . sindicic (at) fer. hr 
+
